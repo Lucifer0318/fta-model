@@ -1,6 +1,6 @@
 {
 	"name": "fta-model",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"author": "Lucifer",
 	"description": "Vue2组件：基于joint.js的FTA模型可视化",
 	"main": "dist/fta-model.js",

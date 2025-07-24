@@ -102,24 +102,24 @@ export default {
 
 1. 基础样式
    - 默认
-    ![基础默认](examples/default.png)
+    ![基础默认](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/default.png)
 
    - 高亮
-    ![基础高亮](examples/default-highlight.png)
+    ![基础高亮](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/default-highlight.png)
 
 2. 诊断样式
    - 默认
-    ![诊断默认](examples/diganose.png)
+    ![诊断默认](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/diganose.png)
 
    - 高亮
-    ![诊断高亮](examples/diganose-highlight.png)
+    ![诊断高亮](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/diganose-highlight.png)
 
 3. 故障样式
    - 默认
-    ![故障默认](examples/fault.png)
+    ![故障默认](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/fault.png)
 
    - 高亮
-    ![故障高亮](examples/fault-highlight.png)
+    ![故障高亮](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/fault-highlight.png)
 
 4. 显示用例配置状态
-   ![显示用例配置状态](examples/show-case-state.png)
+   ![显示用例配置状态](https://cdn.jsdelivr.net/npm/fta-model@latest/examples/show-case-state.png)
