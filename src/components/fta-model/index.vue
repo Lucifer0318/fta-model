@@ -1,8 +1,8 @@
 <template>
 	<div ref="modelContainer" class="model-cont">
 		<div class="tool-wrap">
-			<custom-button icon="refresh" text="重置" @click="autoFit"></custom-button>
-			<custom-button :icon="fullscreenIcon" :text="fullscreenText" @click="fullscreen"></custom-button>
+			<fta-button icon="refresh" text="重置" @click="autoFit"></fta-button>
+			<fta-button :icon="fullscreenIcon" :text="fullscreenText" @click="fullscreen"></fta-button>
 		</div>
 		<div style="width: 100%; height: calc(100% - 56px)">
 			<div ref="paperContainer"></div>
@@ -31,10 +31,10 @@
 		L: BasicEvent,
 	}
 
-	import CustomButton from '@/components/custom-button/index.vue'
+	import FtaButton from '@/components/fta-button/index.vue'
 	export default {
 		name: 'FtaModel',
-		components: { CustomButton },
+		components: { FtaButton },
 		props: {
 			// 模型数据（树状）
 			data: {

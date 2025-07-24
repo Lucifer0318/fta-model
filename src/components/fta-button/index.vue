@@ -1,5 +1,5 @@
 <template>
-	<button class="custom-button" @click="$emit('click')">
+	<button class="fta-button" @click="$emit('click')">
 		<i v-if="icon" class="iconfont icon" :class="icon" />
 		<span>{{ text }}</span>
 	</button>
@@ -7,7 +7,7 @@
 
 <script>
 	export default {
-		name: 'CustomButton',
+		name: 'FtaButton',
 		props: {
 			icon: {
 				type: String,
@@ -25,7 +25,7 @@
 </script>
 
 <style>
-	.custom-button {
+	.fta-button {
 		display: inline-block;
 		line-height: 1;
 		white-space: nowrap;
@@ -48,20 +48,20 @@
 		align-items: center;
 	}
 
-	.custom-button:focus,
-	.custom-button:hover {
+	.fta-button:focus,
+	.fta-button:hover {
 		color: #409eff;
 		border-color: #c6e2ff;
 		background-color: #ecf5ff;
 	}
 
-	.custom-button:active {
+	.fta-button:active {
 		color: #3a8ee6;
 		border-color: #3a8ee6;
 		outline: 0;
 	}
 
-	.custom-button + .custom-button {
+	.fta-button + .fta-button {
 		margin-left: 10px;
 	}
 
@@ -69,7 +69,7 @@
 		font-size: 12px;
 	}
 
-	.custom-button [class*='icon'] + span {
+	.fta-button [class*='icon'] + span {
 		margin-left: 5px;
 	}
 </style>
