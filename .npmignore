@@ -1,0 +1,17 @@
+# 开发文件
+node_modules/
+webpack.config.js
+babel.config.js
+package-lock.json
+yarn.lock
+PACKAGE.md
+
+# 源码（仅发布dist和libs）
+src/components/
+src/index.js
+
+# 其他
+.gitignore
+.env
+docs/
+examples/
